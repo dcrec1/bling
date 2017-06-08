@@ -12,10 +12,10 @@ Documentação Rdoc em [Rubydoc.info](http://www.rubydoc.info/gems/bling-ruby-ap
 
 ## Configuração
 
-Instale a versão mais recente
+Adicione no Gemfile:
 
 ```
-$ gem install bling
+gem 'bling-ruby-api', github: 'locomotivapro/bling', require: 'bling'
 ```
 
 Configure sua chave de integração:
