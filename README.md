@@ -21,14 +21,14 @@ gem 'bling-ruby-api', github: 'locomotivapro/bling', require: 'bling'
 Configure sua chave de integração:
 
 ```ruby
-Bling::Config.api_key = '55fxs324dsk3....'
+Bling.config.api_key = '98f...'
 ```
 
 Por padrão a gem é configurada para aceitar os parâmetros em inglês,
 caso deseje é possível configurar a gem para aceitar em português:
 
 ```ruby
-Bling::Config.default_language= :pt # :en default
+Bling.config.default_language= :pt # :en default
 ```
 
 ## Uso
